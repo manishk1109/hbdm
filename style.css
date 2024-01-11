@@ -27,11 +27,9 @@ body{
     
 }
 
-.card{
-    
+.card{  
     height: 482px;
     width: 336px;
-  
      perspective: 1000px;
     transform-style: preserve-3d;
     transition: 2s ease-in-out;
@@ -142,5 +140,59 @@ body{
     top: 64vh;
     z-index: 3;
  
+}
+
+.memories{
+    background-image: url(images/SL-111019-24830-40.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.memories h1{
+    font-size: 4rem;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.memories h1:hover{
+  text-decoration: underline;
+}
+
+.artImage{
+    margin-top: 50px;
+    margin-inline: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: 2s ease-in-out;
+    row-gap: 40px;
+
+}
+
+
+.imageContainer{
+    height: 450px;
+    width: 350px;
+    background-color: beige;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   text-align: center; 
+   gap: 10px;
+   border-radius: 15px;
+    
+}
+
+.imageFront img{
+    height: 330px;
+    margin-top: 10px;
+}
+
+
+.imageContainer:hover{
+   box-shadow: 0 0 10px grey;
 }
 
