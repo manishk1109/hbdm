@@ -9,26 +9,26 @@
 }
 
 body{
-    background-image: url(images/Untitled\ design.png);
-    background-size: cover;
     font-family: 'EB Garamond', serif;
     font-size: 20px;
 }
 
 .container{
-    height: 130vh;
+    background-image: url(images/Untitled\ design.png);
+    background-size: cover;
+    padding-block: 20vh;
     display: flex;
     background-color: rgba(18, 19, 20, 0.155);
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-    
+    padding-inline: 10vw;
+    gap: 50px;
     
 }
 
 .card{
-    margin-left: 200px;
+    
     height: 482px;
     width: 336px;
   
@@ -89,7 +89,8 @@ body{
     transform-style: preserve-3d;
     perspective: 1000px;
     width: 30vw;
-    position: relative;
+    flex-direction: column;
+    
     
 
 }
@@ -99,20 +100,25 @@ body{
 }
 
 .imageBox{
-    margin-right: 127px;
+  
     height: 160px;
     width: 480px;
     display: flex;
-    margin-top: 20px;
     transform: rotateY(23deg) rotateX(346deg);
-    position: absolute;
+    margin-top: 10px;
     right: 0px;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     padding-inline: 20px;
     align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
 
 
+}
+
+.imageBox:hover{
+    box-shadow: 0 0 20px black;
 }
 
 .imageBox img{
@@ -122,20 +128,19 @@ body{
 
 .Box1{
     background-color: #fdffb6;
-    top: 26vh 
+    
 }
 
 .Box2{
     background-color: #9bf6ff;
-    top: 46vh;
     z-index: 2;
-    right: 15px;
+    
 }
 
 .Box3{
     background-color: #ffecd1;
     top: 64vh;
     z-index: 3;
-    right: 27px;
+ 
 }
 
