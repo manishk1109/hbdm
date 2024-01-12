@@ -217,7 +217,7 @@ body {
 }
 
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width : 600px) {
 
     .container {
         background-image: url(images/Untitled\ design.png);
