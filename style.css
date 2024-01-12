@@ -217,7 +217,7 @@ body {
 }
 
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 700px) {
 
     .container {
         background-image: url(images/Untitled\ design.png);
@@ -242,7 +242,7 @@ body {
         transition: 2s ease-in-out;
         text-align: center;
         cursor: pointer;
-        margin-left: 48px;
+        margin-inline: auto;
 
     }
 
@@ -271,7 +271,7 @@ body {
 
     .artImage {
         margin-top: 50px;
-        margin-inline: 10vw;
+        margin-inline: 20vw;
         display: grid;
         grid-template-columns: 1fr;
         perspective: 1000px;
@@ -288,6 +288,20 @@ body {
     #special img{
         grid-column: auto;
         width: 332px;
+    }
+
+    .imageContainer {
+        height: 450px;
+        width: 350px;
+        background-color: beige;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        border-radius: 15px;
+        margin-inline: auto;
     }
  
 }
