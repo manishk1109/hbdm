@@ -271,7 +271,7 @@ body {
 
     .artImage {
         margin-top: 50px;
-        margin-inline: 20vw;
+        margin-inline: auto;
         display: grid;
         grid-template-columns: 1fr;
         perspective: 1000px;
