@@ -207,15 +207,105 @@ body {
     box-shadow: 0 0 10px grey;
 }
 
-#special{
-    grid-column: 1/-1;
-    width: 90%;
-}
+
 
 #special img{
-    width: 500px;
+    width: 300px;
 }
 
+.span{
+    margin-top: 50px;
+}
+
+@media screen and (max-width : 1200px) {
+
+    .container {
+        background-image: url(images/Untitled\ design.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-inline: 0px;
+        align-items: flex-start;
+    
+    
+    }
+
+    .card {
+        height: 510px;
+        width: 336px;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        transition: 2s ease-in-out;
+        text-align: center;
+        cursor: pointer;
+        margin-inline: auto;
+
+    }
+
+    .imageBox {
+        height: 164px;
+        width: 98vw;
+        display: flex;
+        transform: rotateY(326deg) rotateX(20deg);
+        margin-top: 10px;
+        right: 0px;
+        justify-content: space-between;
+        gap: 10px;
+        padding-inline: 20px;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    
+    .memories {
+        background-image: url(images/SL-111019-24830-40.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+    }
+
+    .artImage {
+        margin-top: 50px;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        perspective: 1000px;
+        transform-style: preserve-3d;
+        transition: 2s ease-in-out;
+        row-gap: 40px;
+        
+    }
+
+    #special{
+        height: 450px;
+        width: 350px 
+    }
+
+    #special img{
+        grid-column: auto;
+        width: 332px;
+    }
+
+    .imageContainer {
+        height: 450px;
+        width: 350px;
+        background-color: beige;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        border-radius: 15px;
+        margin-inline: auto;
+    }
+ 
+}
 
 @media screen and (max-width : 700px) {
 
